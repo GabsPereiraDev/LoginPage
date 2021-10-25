@@ -52,7 +52,7 @@ export function SignIn() {
               {({ field, form }) => (
                 <FormControl isInvalid={form.errors.Password && form.touched.Password}>
                   <FormLabel htmlFor="Password">Password</FormLabel>
-                  <Input {...field} id="Password" placeholder="Password" />
+                  <Input {...field} type="password" id="Password" placeholder="Password" />
                   <FormErrorMessage>{form.errors.Password}</FormErrorMessage>
                 </FormControl>
               )}
@@ -60,7 +60,7 @@ export function SignIn() {
             <Stack spacing={10} direction="row" justifyContent='space-between'>
               <Checkbox colorScheme="red"
                 defaultIsChecked>
-                MANTENHA-ME CONECTADO
+                Matenha me conectado
               </Checkbox>
               <Link href='www.google.com'
                 font-size='1rem'
