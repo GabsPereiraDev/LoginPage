@@ -82,7 +82,7 @@ export function SignIn() {
           </Form>
           <Stack spacing={10} direction="row" justifyContent='end' >
         
-            <Link href='www.google.com'
+            <Link href='https://optimistic-saha-2581bc.netlify.app/signup'
               font-size='1rem'
               fontWeight='bold'
               color={colors.grey500}
